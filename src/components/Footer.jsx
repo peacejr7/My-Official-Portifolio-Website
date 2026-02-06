@@ -17,7 +17,7 @@ const Footer = ({ darkMode }) => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-bold mb-2 text-orange-500 dark:text-white">
+            <h3 className="text-2xl font-bold mb-2 text-purple-500 dark:text-white">
               Portfolio
             </h3>
 
@@ -27,29 +27,29 @@ const Footer = ({ darkMode }) => {
                 color: darkMode ? '#9ca3af' : '#6b7280',
               }}
             >
-              Full Stack Developer & UI/UX Designer
+              Web Developer &  Data Scientist
             </p>
           </div>
 
           {/* Social Icons */}
           <div className="flex gap-4">
             <a
-              href="#"
-              className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]"
+              href="https://github.com/peacejr7"
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-purple-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]"
             >
               <FaGithub />
             </a>
 
             <a
-              href="#"
-              className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]"
+              href="https://www.linkedin.com/in/robert-peace-ishimwe-934215162/"
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-purple-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]"
             >
               <FaLinkedin />
             </a>
 
             <a
               href="#"
-              className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]"
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-purple-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]"
             >
               <FaTwitter />
             </a>
@@ -62,7 +62,7 @@ const Footer = ({ darkMode }) => {
               <FaHeart className="text-red-500" />
               by
               <span className="mt-1 text-[#f97316]">
-                OualiCode
+                Mr Robert
               </span>
             </p>
           </div>

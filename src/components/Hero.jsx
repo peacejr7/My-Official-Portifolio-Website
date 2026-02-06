@@ -19,20 +19,20 @@ const Hero = ({ darkMode }) => {
     textPrimary: 'text-white',
     textSecondary: 'text-gray-300',
     buttonSecondary: `
-      text-white border-2 border-orange-500 
-      hover:bg-orange-600
+      text-white border-2 border-purple-500 
+      hover:bg-purple-600
     `,
-    decorativeCircle: 'bg-orange-500 opacity-10',
+    decorativeCircle: 'bg-purple-500 opacity-10',
   }
 
   const lightTheme = {
     textPrimary: 'text-gray-900',
     textSecondary: 'text-gray-700',
     buttonSecondary: `
-      text-gray-800 border-2 border-orange-500 
-      hover:bg-orange-500 hover:text-white
+      text-gray-800 border-2 border-purple-500 
+      hover:bg-purple-500 hover:text-white
     `,
-    decorativeCircle: 'bg-orange-400 opacity-20',
+    decorativeCircle: 'bg-purple-400 opacity-20',
   }
 
   const theme = darkMode ? darkTheme : lightTheme
@@ -70,7 +70,7 @@ const Hero = ({ darkMode }) => {
             </div>
 
             <h1
-              className={`title-font text-3xl sm:text-4xl lg:text-5xl mb-4 font-bold ${theme.textPrimary}`}
+              className={`title-font text-2xl sm:text-4xl lg:text-5xl mb-4 font-bold ${theme.textPrimary}`}
               data-aos="fade-up"
               data-aos-delay="500"
             >
@@ -82,8 +82,9 @@ const Hero = ({ darkMode }) => {
               data-aos="fade-up"
               data-aos-dela="600"
             >
-              I’m a developer with a strong interest in software, data, and modern web technologies. 
-              I enjoy building meaningful projects, learning by doing, and growing my skills every day.
+              A data-driven technologist and software enthusiast with a strong foundation in analytics, web development, and applied machine learning. 
+              I enjoy building practical solutions that turn complex problems into simple, usable systems. 
+              From data insights to full-stack applications, I focus on creating work that is impactful, scalable, and user-centered.
             </p>
 
             {/* Buttons */}
@@ -95,7 +96,7 @@ const Hero = ({ darkMode }) => {
               >
                 <a href={CV} download className="w-full sm:w-auto">
                   <button
-                    className="w-full sm:w-auto inline-flex items-center justify-center text-white bg-linear-to-r from-orange-500 to-amber-500 border-0 py-3 px-6 sm:px-8 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform"
+                    className="w-full sm:w-auto inline-flex items-center justify-center text-white bg-linear-to-r from-purple-500 to-amber-500 border-0 py-3 px-6 sm:px-8 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform"
                   >
                     <DownloadIcon className="w-4 h-4 sm:h-5 sm:w-5 mr-2" />
                     Download CV
@@ -116,12 +117,17 @@ const Hero = ({ darkMode }) => {
 
           {/* Image */}
           <div
-            className="lg:w-1/2 w-full max-w-md lg:max-w-lg mt-8 lg:mt-0 flex justify-center"
+            // className="lg:w-1/2 w-full max-w-md lg:max-w-lg mt-8 lg:mt-0 flex justify-center"
+              className="lg:w-1/2 w-full max-w-md lg:max-w-lg mt-8 lg:mt-0 flex justify-center"
             data-aos="fade-left"
             data-aos-delay="400"
           >
             <div className="relative w-4/5 sm:w-3/4 lg:w-full">
-              <div className="relative overflow-hidden">
+             {/* Gradient background glow */}
+                <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 
+                    dark:from-blue-600/30 dark:via-purple-600/30 dark:to-pink-600/30 
+                    rounded-3xl blur-xl -z-10"></div>
+              <div className="relative overflow-hidden rounded-2xl group">
                 <img
                   src={hero}
                   alt="Hero Image"
@@ -136,7 +142,7 @@ const Hero = ({ darkMode }) => {
               />
             </div>
           </div>
-        </div>
+        </div> 
 
         {/* Decorative Circle */}
         <div

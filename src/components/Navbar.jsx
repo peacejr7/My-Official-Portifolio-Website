@@ -15,23 +15,23 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
   ]
 
   const lightColors = {
-    navBg: 'bg-linear-to-br from-orange-200 to-white',
+    navBg: 'bg-linear-to-br from-purple-200 to-white',
     textPrimary: 'text-gray-900',
     textSecondary: 'text-gray-800',
-    textHover: 'text-orange-500',
-    textActive: 'text-orange-600',
-    indicator: 'from-orange-500 to-amber-500',
-    button: 'from-orange-500 to-amber-500',
+    textHover: 'text-purple-500',
+    textActive: 'text-purple-600',
+    indicator: 'from-purple-500 to-amber-500',
+    button: 'from-purple-500 to-amber-500',
   }
 
   const darkColors = {
     navBg: 'bg-linear-to-br from-gray-700 to-black',
     textPrimary: 'text-white',
     textSecondary: 'text-gray-300',
-    textHover: 'text-orange-400',
-    textActive: 'text-orange-400',
-    indicator: 'from-orange-500 to-amber-500',
-    button: 'from-orange-500 to-amber-500',
+    textHover: 'text-purple-400',
+    textActive: 'text-purple-400',
+    indicator: 'from-purple-500 to-amber-500',
+    button: 'from-purple-500 to-amber-500',
   }
 
   const colors = darkMode ? darkColors : lightColors
@@ -57,7 +57,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
             className="flex items-center space-x-2"
           >
             <span className={`text-xl font-bold ${colors.textPrimary}`}>
-              Portfolio<span className="text-orange-500">.</span>
+              Portfolio<span className="text-purple-500">.</span>
             </span>
           </motion.a>
 
@@ -74,7 +74,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                   className={`font-medium transition-colors duration-300 ${
                     activeSection === item.name.toLowerCase()
                       ? colors.textActive
-                      : `${colors.textSecondary} hover:text-orange-500`
+                      : `${colors.textSecondary} hover:text-purple-500`
                   }`}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -177,7 +177,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                       activeSection === item.name.toLowerCase()
                         ? darkMode
                           ? 'bg-gray-800'
-                          : 'bg-orange-50'
+                          : 'bg-purple-50'
                         : ''
                     }`}
                   >

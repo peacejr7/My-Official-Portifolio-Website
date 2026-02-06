@@ -1,4 +1,4 @@
-import contactImg from '../assets/contact.png'
+import contactImg from '../assets/contact.jpg'
 
 const Contact = ({ darkMode }) => {
   return (
@@ -78,7 +78,7 @@ const Contact = ({ darkMode }) => {
                   borderColor: darkMode ? '#4b5563' : '#d1d5db',
                   color: darkMode ? 'white' : '#1f2937',
                 }}
-                className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all"
+                className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all"
                 required
               />
 
@@ -91,7 +91,7 @@ const Contact = ({ darkMode }) => {
                   borderColor: darkMode ? '#4b5563' : '#d1d5db',
                   color: darkMode ? 'white' : '#1f2937',
                 }}
-                className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all"
+                className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all"
                 required
               />
             </div>
@@ -105,7 +105,7 @@ const Contact = ({ darkMode }) => {
                 borderColor: darkMode ? '#4b5563' : '#d1d5db',
                 color: darkMode ? 'white' : '#1f2937',
               }}
-              className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all mb-3 sm:mb-4"
+              className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all mb-3 sm:mb-4"
               required
             />
 
@@ -118,7 +118,7 @@ const Contact = ({ darkMode }) => {
                 borderColor: darkMode ? '#4b5563' : '#d1d5db',
                 color: darkMode ? 'white' : '#1f2937',
               }}
-              className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all mb-3 sm:mb-4"
+              className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all mb-3 sm:mb-4"
               required
             />
 
@@ -131,16 +131,16 @@ const Contact = ({ darkMode }) => {
                 borderColor: darkMode ? '#4b5563' : '#d1d5db',
                 color: darkMode ? 'white' : '#1f2937',
               }}
-              className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all mb-4 sm:mb-6 resize-none"
+              className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all mb-4 sm:mb-6 resize-none"
               required
             />
 
             <button
               type="submit"
               style={{
-                background: 'linear-gradient(to right, #f97316, #f59e0b)',
+                background: 'linear-gradient(to right, purple, #f59e0b)',
               }}
-              className="w-full py-2 sm:py-3 text-white font-semibold rounded-lg text-sm sm:text-base hover:shadow-lg hover:shadow-orange-500/25 hover:scale-[1.02] transition-all"
+              className="w-full py-2 sm:py-3 text-white font-semibold rounded-lg text-sm sm:text-base hover:shadow-lg hover:shadow-purple-500/25 hover:scale-[1.02] transition-all"
             >
               Send Message
             </button>

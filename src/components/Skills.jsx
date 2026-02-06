@@ -13,7 +13,7 @@ const Skills = ({ darkMode }) => {
       name: 'laravel',
       icon: laravel,
       level: 95,
-      color: 'from-orange-500 to-amber-500',
+      color: 'from-purple-500 to-amber-500',
     },
     {
       name: 'framer motion',
@@ -55,7 +55,7 @@ const Skills = ({ darkMode }) => {
       name: 'vite',
       icon: vite,
       level: 85,
-      color: 'from-red-500 to-orange-500',
+      color: 'from-red-500 to-purple-500',
     },
   ]
 
@@ -90,7 +90,7 @@ const Skills = ({ darkMode }) => {
               className="text-lg max-w-2xl mx-auto leading-relaxed"
               style={{ color: darkMode ? '#d1d5db' : '#4b5563' }}
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
+              My education and  experience have equipped me with a number of skills such as:
             </p>
           </div>
 
@@ -113,7 +113,7 @@ const Skills = ({ darkMode }) => {
                       : 'linear-gradient(to bottom right, #ffffff, #f3f4f6)',
                     borderColor: darkMode ? '#374151' : '#e5e7eb',
                   }}
-                  className="h-full p-6 rounded-2xl border hover:border-orange-500/50 transition-all duration-300 hover:-translate-y-2 group hover:shadow-[0_0_30px_rgb(255,165,0,0.15)]"
+                  className="h-full p-6 rounded-2xl border hover:border-purple-500/50 transition-all duration-300 hover:-translate-y-2 group hover:shadow-[0_0_30px_rgb(255,165,0,0.15)]"
                 >
                   <div className="flex items-center mb-6">
                     <div
