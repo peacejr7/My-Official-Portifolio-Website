@@ -1,4 +1,4 @@
-import html from '../assets/images/HTML.png'
+import html from '../assets/images/html.png'
 import power_bi from '../assets/images/powerBi.png'
 import sql from '../assets/images/SQL.png'
 import react from '../assets/images/react.png'
