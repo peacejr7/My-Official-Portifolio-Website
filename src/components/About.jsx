@@ -1,4 +1,4 @@
-import about from '../assets/about.jpg'
+import about from '../assets/Images/about.jpg'
 
 const About = ({ darkMode }) => {
   return (

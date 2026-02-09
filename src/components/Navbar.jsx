@@ -9,6 +9,8 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
   const navItems = [
     { name: 'Home', link: '#home' },
     { name: 'About', link: '#about' },
+    { name: 'Experience', link: '#experience' },
+    { name: 'Certificates', link: '#certificates'},
     { name: 'Skills', link: '#skills' },
     { name: 'Projects', link: '#projects' },
     { name: 'Contact', link: '#contact' },

@@ -1,10 +1,10 @@
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
-import project1 from '../assets/project1.png'
-import project2 from '../assets/project2.png'
-import project3 from '../assets/project3.png'
-import project4 from '../assets/project4.png'
-import project5 from '../assets/project5.png'
-import project6 from '../assets/project6.png'
+import project1 from '../assets/Images/project1.png'
+import project2 from '../assets/Images/project2.png'
+import project3 from '../assets/Images/project3.png'
+import project4 from '../assets/Images/project4.png'
+import project5 from '../assets/Images/project5.png'
+import project6 from '../assets/Images/project6.png'
 
 const Projects = ({ darkMode }) => {
   const projects = [

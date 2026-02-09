@@ -1,29 +1,29 @@
-import laravel from '../assets/laravel.png'
-import framer_motion from '../assets/framer_motion.png'
-import vue from '../assets/vue.png'
-import react from '../assets/react.png'
-import tailwind from '../assets/tailwind.png'
-import firebase from '../assets/firebase.png'
-import python from '../assets/python.png'
-import vite from '../assets/vite.png'
+import html from '../assets/Images/HTML.png'
+import power_bi from '../assets/Images/powerBi.png'
+import sql from '../assets/Images/SQL.png'
+import react from '../assets/Images/react.png'
+import tailwind from '../assets/Images/tailwind.png'
+import excel from '../assets/Images/excel.png'
+import python from '../assets/Images/python.png'
+import javascript from '../assets/Images/js.png'
 
 const Skills = ({ darkMode }) => {
   const skills = [
     {
-      name: 'laravel',
-      icon: laravel,
+      name: 'html',
+      icon: html,
       level: 95,
       color: 'from-purple-500 to-amber-500',
     },
     {
-      name: 'framer motion',
-      icon: framer_motion,
+      name: 'power bi',
+      icon: power_bi,
       level: 90,
       color: 'from-blue-500 to-cyan-500',
     },
     {
-      name: 'vue',
-      icon: vue,
+      name: 'sql',
+      icon: sql,
       level: 88,
       color: 'from-yellow-500 to-amber-500',
     },
@@ -36,24 +36,24 @@ const Skills = ({ darkMode }) => {
     {
       name: 'Tailwind CSS',
       icon: tailwind,
-      level: 92,
+      level: 85,
       color: 'from-teal-500 to-cyan-500',
     },
     {
-      name: 'Firebase',
-      icon: firebase,
-      level: 92,
+      name: 'excel',
+      icon: excel,
+      level: 97,
       color: 'from-green-500 to-emerald-500',
     },
     {
       name: 'Python',
       icon: python,
-      level: 75,
+      level: 90,
       color: 'from-blue-500 to-indigo-500',
     },
     {
-      name: 'vite',
-      icon: vite,
+      name: 'javascript',
+      icon: javascript,
       level: 85,
       color: 'from-red-500 to-purple-500',
     },
