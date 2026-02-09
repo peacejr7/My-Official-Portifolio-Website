@@ -1,10 +1,10 @@
-import instagram from '../assets/Images/instagram.png'
-import tiktok from '../assets/Images/tiktok.png'
-import github from '../assets/Images/github.png'
-import youtube from '../assets/Images/youtube.png'
-import hero from '../assets/Images/hero.jpg'
-import hi from '../assets/Images/hi.png'
-import CV from '../assets/Documents/CV.pdf'
+import instagram from '../assets/images/instagram.png'
+import tiktok from '../assets/images/tiktok.png'
+import github from '../assets/images/github.png'
+import youtube from '../assets/images/youtube.png'
+import hero from '../assets/images/hero.jpg'
+import hi from '../assets/images/hi.png'
+import CV from '../assets/documents/CV.pdf'
 import { DownloadIcon, Mail } from 'lucide-react'
 
 const Hero = ({ darkMode }) => {

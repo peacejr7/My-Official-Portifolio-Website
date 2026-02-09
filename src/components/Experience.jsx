@@ -3,9 +3,9 @@ import { motion } from "framer-motion"
 import { Briefcase, Calendar, MapPin } from "lucide-react"
 
 // Import company logos from assets
-import rwema from '../assets/Images/rwema.png'
-import auca from '../assets/Images/auca.png'
-import cmu from '../assets/Images/cmu.png'
+import rwema from '../assets/images/rwema.png'
+import auca from '../assets/images/auca.png'
+import cmu from '../assets/images/cmu.png'
 
 const Experience = ({ darkMode }) => {
   // Direct data in component - just like Skills.jsx

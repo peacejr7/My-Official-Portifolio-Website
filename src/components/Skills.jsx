@@ -1,11 +1,11 @@
-import html from '../assets/Images/HTML.png'
-import power_bi from '../assets/Images/powerBi.png'
-import sql from '../assets/Images/SQL.png'
-import react from '../assets/Images/react.png'
-import tailwind from '../assets/Images/tailwind.png'
-import excel from '../assets/Images/excel.png'
-import python from '../assets/Images/python.png'
-import javascript from '../assets/Images/js.png'
+import html from '../assets/images/HTML.png'
+import power_bi from '../assets/images/powerBi.png'
+import sql from '../assets/images/SQL.png'
+import react from '../assets/images/react.png'
+import tailwind from '../assets/images/tailwind.png'
+import excel from '../assets/images/excel.png'
+import python from '../assets/images/python.png'
+import javascript from '../assets/images/js.png'
 
 const Skills = ({ darkMode }) => {
   const skills = [

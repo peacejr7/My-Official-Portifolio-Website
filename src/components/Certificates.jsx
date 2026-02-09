@@ -4,12 +4,12 @@ import { Award, ExternalLink, ZoomIn } from "lucide-react"
 import { useState } from "react"
 
 // Import certificate images from assets
-import cert1 from '../assets/Images/cert1.png'
-import cert2 from '../assets/Images/cert2.png'
-import cert3 from '../assets/Images/cert3.png'
-import cert4 from '../assets/Images/cert4.png'
-import cert5 from '../assets/Images/cert5.png'
-import cert6 from '../assets/Images/cert1.png'
+import cert1 from '../assets/images/cert1.png'
+import cert2 from '../assets/images/cert2.png'
+import cert3 from '../assets/images/cert3.png'
+import cert4 from '../assets/images/cert4.png'
+import cert5 from '../assets/images/cert5.png'
+import cert6 from '../assets/images/cert1.png'
 
 const Certificates = ({ darkMode }) => {
   const [selectedCert, setSelectedCert] = useState(null)
@@ -101,7 +101,7 @@ const Certificates = ({ darkMode }) => {
           </p>
         </div>
 
-        {/* Certifications Grid - Focus on Images */}
+        {/* Certifications Grid - Focus on images */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {certifications.map((cert, index) => (
             <motion.div

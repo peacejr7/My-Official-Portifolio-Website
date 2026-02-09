@@ -1,7 +1,7 @@
 // components/Contact.jsx
 import { motion } from "framer-motion"
 import { Mail, Phone, MapPin, Send, Linkedin, Github } from "lucide-react"
-import contactImg from '../assets/Images/contact.jpg'
+import contactImg from '../assets/images/contact.jpg'
 
 const Contact = ({ darkMode }) => {
   // Your contact information
